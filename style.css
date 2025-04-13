@@ -1,0 +1,92 @@
+.container {
+    width: 906px;
+    margin:0 auto ;
+}
+.header {
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
+.hero {
+    padding-bottom: 66px;
+}
+:root{
+    --background: rgba(255, 255, 255, 1);
+    --title-color: #626262;
+    --nav-color: #7D7D7D;
+    --text-color: #B4AD9E;
+    --accent: #03A9F4;
+}
+
+:root{
+    --main-font: "Playfair Display" , sans-serif;
+    --second-font: "Ubuntu" , sans-serif;
+}
+
+body {
+    font-family: var(--main-font);
+font-size: 14px;
+}
+
+
+
+body, h2, h3, p, ul {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.header-list {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.header-link{
+    text-transform: uppercase;
+    color: var(--nav-color);
+}
+.header-link:hover{
+color: #03A9F4;
+}
+.hero{
+    padding-bottom: 66px;
+}
+.hero-list{
+display: flex;
+flex-wrap: wrap;
+row-gap: 130px;
+column-gap: 65px;
+padding-bottom: 9px;
+}
+.hero-item{
+    max-width: 420px;
+}
+.fotoblog-subtitle{
+    font-weight: 300;
+    color: var(--text-color);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-family: var(--second-font);
+}
+.fotoblog-title{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 30px;
+    color: #626262;
+}
+.fotoblog-desc{
+    color: var(--title-color);
+}
+.hero-btn{
+    color: var(--title-color);
+    padding: 20px 48px;
+    background-color: var(--background);
+    border: 1px solid var(--title-color);
+    display: block;
+    margin: auto;
+}
