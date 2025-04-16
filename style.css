@@ -82,11 +82,13 @@ padding-bottom: 9px;
 .fotoblog-desc{
     color: var(--title-color);
 }
-.hero-btn{
+.button{
     color: var(--title-color);
     padding: 20px 48px;
     background-color: var(--background);
     border: 1px solid var(--title-color);
     display: block;
     margin: auto;
+    margin-bottom: 66px;
+    font-family: var(--main-font);
 }
